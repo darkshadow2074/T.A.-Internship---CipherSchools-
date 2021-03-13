@@ -15,7 +15,11 @@ function loginHandler (e){
               if(isButtonClicked){
                   window.location.href="https://akash-singh-portfolio.netlify.app/" 
               }
+        }else{
+            alert("Please!!! Enter Your Password")
         }
+    }else{
+        alert("Please!!! Enter Your UserName")
     }
    
 }
