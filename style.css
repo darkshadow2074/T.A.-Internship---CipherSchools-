@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: url("./trial2.jpg") center center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#login-section{
+    display: block;
+    margin: 10rem auto;
+    width: 70%;
+       
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+input{
+    margin: 1.5rem;
+    width: 15%;
+    padding: 0.8rem;
+    border-radius: 18px;
+    outline: none;
+    border: 0.2px solid transparent;
+    width: 25%;
+    font-size: 0.988rem;
+    max-width: 100%;
+    background: #F9DEC9;
+    
+}
+.button-section{
+    display: block;
+   
+}
+.login-button{
+    margin: 0.5rem;
+    padding: 0.79rem;
+    border-radius: 18px;
+    outline: none;
+    border:none;
+    max-width: 100%;
+    width: 100%;
+    cursor: pointer;
+    background-color: #F9DEC9;
+}
